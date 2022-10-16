@@ -6,6 +6,7 @@ import Head from 'next/head';
 
 // Import Swiper styles
 import 'swiper/css';
+import Editorpick from '../components/home/Editorpick';
 
 const HomePage = () => {
   return (
@@ -28,6 +29,7 @@ const HomePage = () => {
           <SwiperSlide>Slide 3</SwiperSlide>
           <SwiperSlide>Slide 4</SwiperSlide>
         </Swiper>
+        <Editorpick />
 
       </div>
     </>
