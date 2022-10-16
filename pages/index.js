@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react'
+import Navbar from '../components/Navbar'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Head from "next/head";
@@ -9,6 +10,8 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Navigation } from "swiper";
+import 'swiper/css';
+import Editorpick from '../components/home/Editorpick';
 
 const HomePage = () => {
   return (
@@ -26,6 +29,8 @@ const HomePage = () => {
           crossorigin="anonymous"
         ></script>
       </Head>
+      <Navbar />
+
       <div className="mt-20">
         <Swiper
           navigation={true}
@@ -166,3 +171,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+ 
+

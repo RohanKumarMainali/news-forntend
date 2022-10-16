@@ -159,3 +159,7 @@ body {
   .entry-content{
     font-family: 'Lato',sans-serif;
   }
+ .entry-image {
+    float: left;
+    position: relative;
+}
