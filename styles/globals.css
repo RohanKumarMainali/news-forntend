@@ -7,3 +7,25 @@
     float: left;
     position: relative;
 }
+.entry-image:hover img{
+    filter: brightness(75%);
+}
+.right-cont{
+    position: relative;
+    overflow: hidden;
+    transition: .5 ease;
+}
+.right-cont:hover img{    
+    filter: brightness(60%);
+}
+.right-cont-top{
+    position: absolute;
+    top: 20px;
+    padding: 0 20px;
+}
+.v-card{
+    position: absolute;
+    bottom: 20px;
+    padding: 0 20px;
+    color: white;
+}

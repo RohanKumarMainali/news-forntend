@@ -13,19 +13,13 @@ const Editorpick = () => {
                     <div className="col-lg-8 col-md-12 col-sm-12 layout-combo">
                         <article className="gridlove-post gridlove-post-b gridlove-box  post-174 post type-post status-publish format-video has-post-thumbnail hentry category-entertainment post_format-post-format-video">
                             <div className="entry-image me-4">
-                                <a
-                                    href="https://demo.mekshq.com/gridlove/?p=174"
-                                    title="Are rock concerts really coming back into fashion?"
-                                >
-                                    <img
-                                        width={385}
-                                        height={300}
-                                        src="/images/croud.jpg"
-                                        className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
-                                        alt=""
-                                        loading="lazy"
-                                    />
-                                </a>
+                                <img
+                                    width={385}
+                                    height={300}
+                                    src="/images/croud.jpg"
+                                    className="attachment-gridlove-b8 size-gridlove-b8 wp-post-image"
+                                    alt=""
+                                    loading="lazy" />
                             </div>
                             <div className="box-inner-ptbr box-col-b entry-sm-overlay">
                                 <div className="box-inner-ellipsis">
@@ -34,11 +28,11 @@ const Editorpick = () => {
                                             <span className="gridlove-format-icon">
                                                 <i className="fa fa-play" />
                                             </span>
-                                           <span className='px-2 py-1 text-light fw-bold' style={{borderRadius:'20px', fontSize:'11px' ,background:'#a66bbe'}}>Entertainment</span>
+                                            <span className='px-2 py-1 text-light fw-bold' style={{ borderRadius: '20px', fontSize: '11px', background: '#a66bbe' }}>Entertainment</span>
                                         </div>
                                         <h2 className="entry-title h3 mt-4">
-                                            <p style={{fontSize:'30px'}}>Are rock concerts really coming back into fashion?</p>
-                                                
+                                            <p style={{ fontSize: '30px' }}>Are rock concerts really coming back into fashion?</p>
+
                                         </h2>
                                         <div className="entry-content mt-3">
                                             <p>
@@ -54,17 +48,14 @@ const Editorpick = () => {
                                         <div className="coauthors d-flex">
                                             <span className="vcard d-flex author">
                                                 <span className="fn d-flex">
-                                                    <a href="https://demo.mekshq.com/gridlove?author_name=meks1">
-                                                        <img
-                                                            alt=""
-                                                            src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/avatar_user_3_1473333938-24x24.jpg"
-                                                            className="avatar rounded-circle me-1 d-flex avatar-24 photo"
-                                                            height={24}
-                                                            width={24}
-                                                            loading="lazy"
-                                                        />
-                                                        
-                                                    </a>
+                                                    <img
+                                                        alt=""
+                                                        src="/images/croud.jpg"
+                                                        className="avatar rounded-circle me-1 d-flex avatar-24 photo"
+                                                        height={24}
+                                                        width={24}
+                                                        loading="lazy"
+                                                    />
                                                     <span>
                                                         Patricia Callahan</span>
                                                 </span>
@@ -76,7 +67,27 @@ const Editorpick = () => {
                             </div>
                         </article>
                     </div>
-
+                    <div className="col-md-6 col-lg-4 col-sm-12 right-cont">
+                        <img className='editorpick-img2' src="/images/einstine.jpg" alt="" />
+                        <div className="right-cont-top">
+                            <span className='px-2 text-light bg-warning py-1' style={{ fontSize: '11px', borderRadius: '20px' }}>TECHNOLOGY</span>
+                            <p className='fw-bold mt-3 text-light' style={{ fontSize: '20px' }}>The world needs true geniuses now more than ever</p>
+                        </div>
+                        <span className="v-card d-flex author">
+                            <span className="fn d-flex">
+                                <img
+                                    alt=""
+                                    src="/images/croud.jpg"
+                                    className="avatar rounded-circle me-1 d-flex avatar-24 photo"
+                                    height={24}
+                                    width={24}
+                                    loading="lazy"
+                                />
+                                <span>
+                                    Patricia Callahan</span>
+                            </span>
+                        </span>
+                    </div>
                 </div>
             </div>
         </>
